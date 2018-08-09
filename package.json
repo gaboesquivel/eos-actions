@@ -1,0 +1,22 @@
+{
+  "name": "eos-transactions",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "standard"
+  },
+  "author": "Gabo Esquivel <contact@gaboesquivel.com> (https://gaboesquivel.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "@eoscostarica/eosjs-camel-api": "^0.2.0",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.4.1",
+    "lodash.zip": "^4.2.0",
+    "prettyjson": "^1.2.1"
+  }
+}
